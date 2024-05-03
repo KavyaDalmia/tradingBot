@@ -1,0 +1,5 @@
+2024-05-02 23:22:21,529: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-02 23:22:21,542: root: INFO: Backtesting finished
+2024-05-02 23:22:24,746: asyncio: WARNING: [MachineLearningTrader] Cannot plot returns because the strategy returns are missing
+2024-05-02 23:22:25,196: asyncio: WARNING: [MachineLearningTrader] Cannot create a tearsheet because the strategy returns are missing
+2024-05-02 23:22:25,196: backtest_stats: INFO: Backtest took 0:00:03.671688 for a speed of 0.000

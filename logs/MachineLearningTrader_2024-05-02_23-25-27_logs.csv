@@ -1,0 +1,38 @@
+2024-05-02 23:25:27,824: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-02 23:25:29,234: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-05-02 23:25:29,235: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-02 23:25:29,236: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-05-02 23:25:29,236: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-02 23:25:29,242: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-02 23:25:29[0m
+2024-05-02 23:25:29,242: asyncio: ERROR: [MachineLearningTrader] Strategy.create_order() got an unexpected keyword argument 'tyep'
+2024-05-02 23:25:29,245: asyncio: ERROR: [MachineLearningTrader] Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\New folder\tradingBot\tradingBot.py", line 40, in on_trading_iteration
+    order = self.create_order(self.symbol, 10, "buy", tyep="market")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Strategy.create_order() got an unexpected keyword argument 'tyep'
+
+2024-05-02 23:25:29,249: asyncio: INFO: [MachineLearningTrader] Executing the on_bot_crash event method
+2024-05-02 23:25:29,280: root: INFO: Backtesting finished
+2024-05-02 23:25:31,082: asyncio: WARNING: [MachineLearningTrader] Cannot plot returns because the strategy returns are missing
+2024-05-02 23:25:31,213: asyncio: WARNING: [MachineLearningTrader] Cannot create a tearsheet because the strategy returns are missing
+2024-05-02 23:25:31,213: backtest_stats: INFO: Backtest took 0:00:03.391472 for a speed of 0.000
