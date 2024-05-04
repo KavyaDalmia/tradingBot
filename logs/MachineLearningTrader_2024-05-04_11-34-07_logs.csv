@@ -1,0 +1,61 @@
+2024-05-04 11:34:07,585: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-04 11:34:08,913: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-05-04 11:34:08,913: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-04 11:34:08,915: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-05-04 11:34:08,915: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-04 11:34:08,950: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-04 11:34:08[0m
+2024-05-04 11:34:08,951: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-04 11:34:10,176: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-04 11:34:10,833: asyncio: ERROR: [MachineLearningTrader] Invalid format for parameter start: error parsing '24-01-13' as RFC3339 or 2006-01-02 time: parsing time "24-01-13" as "2006-01-02": cannot parse "24-01-13" as "2006"
+2024-05-04 11:34:10,841: asyncio: ERROR: [MachineLearningTrader] Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\New folder\tradingBot\tradingBot.py", line 69, in on_trading_iteration
+    news = self.get_news()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\New folder\tradingBot\tradingBot.py", line 58, in get_news
+    news = self.api.get_news(symbol=self.symbol,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\alpaca_trade_api\rest.py", line 988, in get_news
+    news = list(self.get_news_iter(symbol=symbol,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\alpaca_trade_api\rest.py", line 972, in get_news_iter
+    for n in news:
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\alpaca_trade_api\rest.py", line 594, in _data_get
+    resp = self.data_get(path, data=data, feed=feed,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\alpaca_trade_api\rest.py", line 274, in data_get
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\alpaca_trade_api\rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\alpaca_trade_api\rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\alpaca_trade_api\rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: Invalid format for parameter start: error parsing '24-01-13' as RFC3339 or 2006-01-02 time: parsing time "24-01-13" as "2006-01-02": cannot parse "24-01-13" as "2006"
+
+2024-05-04 11:34:10,858: asyncio: INFO: [MachineLearningTrader] Executing the on_bot_crash event method
+2024-05-04 11:34:10,885: root: INFO: Backtesting finished
+2024-05-04 11:34:11,234: asyncio: WARNING: [MachineLearningTrader] Cannot plot returns because the strategy returns are missing
+2024-05-04 11:34:11,480: asyncio: WARNING: [MachineLearningTrader] Cannot create a tearsheet because the strategy returns are missing
+2024-05-04 11:34:11,480: backtest_stats: INFO: Backtest took 0:00:03.897649 for a speed of 0.000

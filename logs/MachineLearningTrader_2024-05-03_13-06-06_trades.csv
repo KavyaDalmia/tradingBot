@@ -1,0 +1,2 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type
+2024-01-16 09:30:00-05:00,MachineLearningTrader,97a102ebfc9e488fa75a3fddb1ff98cc,SPY,buy,brackey,new,1,gtc,0.0,1,stock

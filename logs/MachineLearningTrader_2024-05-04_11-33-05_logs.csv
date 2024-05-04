@@ -1,0 +1,46 @@
+2024-05-04 11:33:05,113: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-04 11:33:06,364: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-05-04 11:33:06,365: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-04 11:33:06,365: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-05-04 11:33:06,365: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-04 11:33:06,368: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-04 11:33:06[0m
+2024-05-04 11:33:06,369: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-04 11:33:08,408: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-04 11:33:08,409: asyncio: ERROR: [MachineLearningTrader] 'datetime.datetime' object has no attribute 'strfttime'
+2024-05-04 11:33:08,413: asyncio: ERROR: [MachineLearningTrader] Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\New folder\tradingBot\tradingBot.py", line 69, in on_trading_iteration
+    news = self.get_news()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\New folder\tradingBot\tradingBot.py", line 57, in get_news
+    today, three_days_before = self.get_dates()
+                               ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\New folder\tradingBot\tradingBot.py", line 52, in get_dates
+    return today.strfttime('%y-%m-%d'), three_days_before.strfttime('%y-%m-%d')
+           ^^^^^^^^^^^^^^^
+AttributeError: 'datetime.datetime' object has no attribute 'strfttime'. Did you mean: 'strftime'?
+
+2024-05-04 11:33:08,418: asyncio: INFO: [MachineLearningTrader] Executing the on_bot_crash event method
+2024-05-04 11:33:08,447: root: INFO: Backtesting finished
+2024-05-04 11:33:08,877: asyncio: WARNING: [MachineLearningTrader] Cannot plot returns because the strategy returns are missing
+2024-05-04 11:33:09,299: asyncio: WARNING: [MachineLearningTrader] Cannot create a tearsheet because the strategy returns are missing
+2024-05-04 11:33:09,299: backtest_stats: INFO: Backtest took 0:00:04.188661 for a speed of 0.000

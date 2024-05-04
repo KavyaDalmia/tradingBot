@@ -1,0 +1,27 @@
+2024-05-03 13:06:02,080: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-03 13:06:03,517: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-05-03 13:06:03,518: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-03 13:06:03,520: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-05-03 13:06:03,520: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-03 13:06:03,554: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-03 13:06:03[0m
+2024-05-03 13:06:03,555: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-03 13:06:05,098: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-03 13:06:05,100: asyncio: INFO: [MachineLearningTrader] [32mNew order was created: brackey order of | 105.0 SPY buy | with status new[0m
+2024-05-03 13:06:05,104: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-03 13:06:05[0m
+2024-05-03 13:06:05,104: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-03 13:06:05,105: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-03 13:06:05,106: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-03 13:06:05,107: asyncio: ERROR: [MachineLearningTrader] Order type brackey is not implemented for backtesting.
+2024-05-03 13:06:05,112: asyncio: ERROR: [MachineLearningTrader] Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\strategies\strategy_executor.py", line 870, in _run_trading_session
+    self.broker.process_pending_orders(strategy=self.strategy)
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\lumibot\backtesting\backtesting_broker.py", line 643, in process_pending_orders
+    raise ValueError(f"Order type {order.type} is not implemented for backtesting.")
+ValueError: Order type brackey is not implemented for backtesting.
+
+2024-05-03 13:06:05,115: asyncio: INFO: [MachineLearningTrader] Executing the on_bot_crash event method
+2024-05-03 13:06:06,156: root: INFO: Backtesting finished
+2024-05-03 13:06:09,226: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-05-03 13:06:09,227: backtest_stats: INFO: Backtest took 0:00:07.149549 for a speed of 0.000
