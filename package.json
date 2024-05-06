@@ -1,0 +1,16 @@
+{
+  "name": "tradingbot",
+  "version": "1.0.0",
+  "description": "For live trading, packages installed:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^3.0.1",
+    "ws": "^8.17.0"
+  }
+}
