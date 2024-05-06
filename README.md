@@ -1,3 +1,4 @@
+Live demo: https://youtu.be/8doMJ0AG5c8?si=JPJqwq0sGP2lXV6c
 # Lumibot-Alpaca News Trading App
 
 ## Overview
