@@ -1,1 +1,3 @@
-This is a readme file.
+For live trading, packages installed:
+
+npm init --yes

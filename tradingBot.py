@@ -3,6 +3,7 @@ from lumibot.backtesting import YahooDataBacktesting
 from lumibot.strategies.strategy import Strategy
 from lumibot.traders import Trader
 from datetime import datetime
+from finbert_utils import estimate_sentiment
 
 from alpaca_trade_api import REST #we can dynamically get a bunch of stuff from this api
 from datetime import timedelta
@@ -14,10 +15,12 @@ from datetime import timedelta
 # torch - pytorch framework for using AI/ML
 # transformers - to load up finance deep learning model
 
+#classifier = pipeline('sentiment-analysis')
 
 API_KEY = "PKKE8Q20HG91SIPFPQZA"
 API_SECRET = "W1iXIc6aWZLmBKDuS7hUHlR9eay8bdKcT1rhJvmj"
 BASE_URL = "https://paper-api.alpaca.markets/v2"
+
 # link to get the api key: https://app.alpaca.markets/paper/dashboard/overview
 
 ALPACA_CREDS = {
@@ -32,7 +35,7 @@ class MachineLearningTrader(Strategy):
     def initialize(self, symbol:str="SPY", cash_at_rist:float=.5):
         # Initialize your strategy 
         self.symbol = symbol
-        self.sleeptime = "5M"
+        self.sleeptime = "1D"
         self.minutes_before_closing = 15
         self.last_trade = None # if you want to undo some of the last trades
         self.cash_at_risk = cash_at_rist
@@ -60,40 +63,69 @@ class MachineLearningTrader(Strategy):
                           end=today) #this returns a jumble, we are going to do processing on it 
         news = [ev.__dict__["_raw"]["headline"] for ev in news]
         return news
+     
+    
+    def get_sentiment(self):
+        today, three_days_before = self.get_dates()
+        news = self.api.get_news(symbol=self.symbol, 
+                          start= three_days_before, 
+                          end=today)
+        news = [ev.__dict__["_raw"]["headline"] for ev in news]
+        probability, sentiment = estimate_sentiment(news) 
+        return probability, sentiment
+
 
     def on_trading_iteration(self):
         # trading logic here
+        probability, sentiment = self.get_sentiment()
         cash, last_price, quantity = self.position_sizing()
-        if cash > last_price: 
-            if self.last_trade == None:
-                news = self.get_news()
-                print(news)
+        
+        if cash > last_price:
+            if sentiment == "positive" and probability > 0.999:
+                if self.last_trade == "sell":
+                    self.sell_all()
                 order = self.create_order(
                     self.symbol,
-                    quantity, 
-                    "buy", 
+                    quantity,
+                    "buy",
                     type="bracket",
-                    take_profit_price=last_price*1.2,
-                    stop_loss_price=last_price*0.95
-                    )
-                #market or limit or what type of order is specified in type.
-                #will run everytime we get new data
+                    take_profit_price = 1.20*last_price,
+                    stop_loss_price = 0.95*last_price
+                )
                 self.submit_order(order)
                 self.last_trade = "buy"
+            elif sentiment == "negative" and probability > 0.999:
+                if self.last_trade == "buy":
+                    self.sell_all()
+                order = self.create_order(
+                    self.symbol,
+                    quantity,
+                    "sell",
+                    type="bracket",
+                    take_profit_price = 0.80*last_price,
+                    stop_loss_price = 1.05*last_price
+                )
+                self.submit_order(order)
+                self.last_trade = "sell"
+                
 
 
 #create an instance of the strategy
-strategy = MachineLearningTrader(name = 'mlstrat', broker= broker, parameters={"symbol": "SPY", "cash_at_risk": 0.2})
+strategy = MachineLearningTrader(name = 'mlstrat', broker= broker, parameters={"symbol": "SPY", "cash_at_risk": 0.5})
 
-start_date = datetime(2024, 1, 15)
-end_date = datetime(2024, 1, 30)
+start_date = datetime(2023, 1, 1)
+end_date = datetime(2023, 12, 31)
 
 strategy.backtest(
     YahooDataBacktesting,
     start_date,
     end_date,
-    parameters={"symbol":"SPY", "cash_at_risk": 0.2}
+    parameters={"symbol":"SPY", "cash_at_risk": 0.5}
 )
+
+# trader = Trader()
+# trader.add_strategy(strategy)
+# trader.run_all()
 
 # notes:
 # Lifecycle methods: Lifecycle methods are methods that are called by the trading engine at specific times.

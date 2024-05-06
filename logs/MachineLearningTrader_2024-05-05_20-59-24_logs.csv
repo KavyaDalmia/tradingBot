@@ -1,0 +1,35 @@
+2024-05-05 20:59:24,578: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-05 20:59:25,796: root: INFO: Current backtesting datetime 2023-12-01 08:30:00-05:00
+2024-05-05 20:59:25,796: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-05 20:59:25,798: root: INFO: Current backtesting datetime 2023-12-01 09:30:00-05:00
+2024-05-05 20:59:25,798: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-05 20:59:25,834: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:59:25[0m
+2024-05-05 20:59:25,835: asyncio: ERROR: [MachineLearningTrader] MachineLearningTrader.on_trading_iteration() missing 1 required positional argument: 'symbol'
+2024-05-05 20:59:25,838: asyncio: ERROR: [MachineLearningTrader] Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: MachineLearningTrader.on_trading_iteration() missing 1 required positional argument: 'symbol'
+
+2024-05-05 20:59:25,840: asyncio: INFO: [MachineLearningTrader] Executing the on_bot_crash event method
+2024-05-05 20:59:25,853: root: INFO: Backtesting finished
+2024-05-05 20:59:27,111: asyncio: WARNING: [MachineLearningTrader] Cannot plot returns because the strategy returns are missing
+2024-05-05 20:59:27,211: asyncio: WARNING: [MachineLearningTrader] Cannot create a tearsheet because the strategy returns are missing
+2024-05-05 20:59:27,211: backtest_stats: INFO: Backtest took 0:00:02.634800 for a speed of 0.000

@@ -1,0 +1,227 @@
+2024-05-05 20:51:15,592: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-05 20:51:16,750: root: INFO: Current backtesting datetime 2022-01-03 08:30:00-05:00
+2024-05-05 20:51:16,751: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-05 20:51:16,752: root: INFO: Current backtesting datetime 2022-01-03 09:30:00-05:00
+2024-05-05 20:51:16,752: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-05 20:51:16,755: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:16[0m
+2024-05-05 20:51:18,548: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:20,207: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:20,730: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:21,015: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:21,382: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:21,545: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:21,568: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:21,698: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:21,699: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:21[0m
+2024-05-05 20:51:21,700: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:21,700: root: INFO: Current backtesting datetime 2022-01-03 16:00:00-05:00
+2024-05-05 20:51:21,701: root: INFO: Current backtesting datetime 2022-01-04 09:30:00-05:00
+2024-05-05 20:51:21,701: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:21[0m
+2024-05-05 20:51:22,254: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:22,256: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:22,886: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:22,888: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:23,043: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:23,044: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:23,128: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:23,130: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:23,131: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:23[0m
+2024-05-05 20:51:23,132: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:23,134: root: INFO: Current backtesting datetime 2022-01-04 16:00:00-05:00
+2024-05-05 20:51:23,134: root: INFO: Current backtesting datetime 2022-01-05 09:30:00-05:00
+2024-05-05 20:51:23,135: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:23[0m
+2024-05-05 20:51:23,568: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:23,573: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,066: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,069: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,364: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,365: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,478: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,479: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:24[0m
+2024-05-05 20:51:24,481: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:24,483: root: INFO: Current backtesting datetime 2022-01-05 16:00:00-05:00
+2024-05-05 20:51:24,484: root: INFO: Current backtesting datetime 2022-01-06 09:30:00-05:00
+2024-05-05 20:51:24,485: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:24[0m
+2024-05-05 20:51:24,900: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:24,903: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:25,405: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:25,407: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:25,827: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:25,829: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:25,935: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:25,937: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:25,938: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:25[0m
+2024-05-05 20:51:25,939: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:25,940: root: INFO: Current backtesting datetime 2022-01-06 16:00:00-05:00
+2024-05-05 20:51:25,942: root: INFO: Current backtesting datetime 2022-01-07 09:30:00-05:00
+2024-05-05 20:51:25,943: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:25[0m
+2024-05-05 20:51:26,332: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:26,336: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:26,971: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:26,974: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:27,419: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:27,420: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:27,450: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:27,451: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:27,452: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:27[0m
+2024-05-05 20:51:27,454: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:27,455: root: INFO: Current backtesting datetime 2022-01-07 16:00:00-05:00
+2024-05-05 20:51:27,455: root: INFO: Current backtesting datetime 2022-01-08 09:30:00-05:00
+2024-05-05 20:51:27,456: asyncio: INFO: [MachineLearningTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-05 20:51:27,459: root: INFO: Current backtesting datetime 2022-01-08 09:15:00-05:00
+2024-05-05 20:51:27,462: root: INFO: Current backtesting datetime 2022-01-08 09:15:00-05:00
+2024-05-05 20:51:27,462: asyncio: INFO: [MachineLearningTrader] Executing the after_market_closes lifecycle method
+2024-05-05 20:51:27,464: root: INFO: Current backtesting datetime 2022-01-10 08:30:00-05:00
+2024-05-05 20:51:27,466: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-05 20:51:27,468: root: INFO: Current backtesting datetime 2022-01-10 09:30:00-05:00
+2024-05-05 20:51:27,468: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-05 20:51:27,472: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:27[0m
+2024-05-05 20:51:27,898: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:27,901: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:28,486: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:28,489: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:28,894: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:28,897: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:29,083: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:29,084: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:29,085: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:29[0m
+2024-05-05 20:51:29,087: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:29,089: root: INFO: Current backtesting datetime 2022-01-10 16:00:00-05:00
+2024-05-05 20:51:29,089: root: INFO: Current backtesting datetime 2022-01-11 09:30:00-05:00
+2024-05-05 20:51:29,090: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:29[0m
+2024-05-05 20:51:29,911: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:29,914: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:30,595: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:30,598: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:30,937: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:30,940: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:30,967: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:30,970: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:30,970: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:30[0m
+2024-05-05 20:51:30,972: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:30,973: root: INFO: Current backtesting datetime 2022-01-11 16:00:00-05:00
+2024-05-05 20:51:30,973: root: INFO: Current backtesting datetime 2022-01-12 09:30:00-05:00
+2024-05-05 20:51:30,974: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:30[0m
+2024-05-05 20:51:31,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:31,515: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:32,270: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:32,272: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:32,717: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:32,719: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:32,752: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:32,754: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:32,755: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:32[0m
+2024-05-05 20:51:32,756: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:32,758: root: INFO: Current backtesting datetime 2022-01-12 16:00:00-05:00
+2024-05-05 20:51:32,758: root: INFO: Current backtesting datetime 2022-01-13 09:30:00-05:00
+2024-05-05 20:51:32,759: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:32[0m
+2024-05-05 20:51:33,322: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:33,326: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:33,816: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:33,819: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:34,383: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:34,385: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:34,421: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:34,422: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:34,423: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:34[0m
+2024-05-05 20:51:34,424: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:34,426: root: INFO: Current backtesting datetime 2022-01-13 16:00:00-05:00
+2024-05-05 20:51:34,426: root: INFO: Current backtesting datetime 2022-01-14 09:30:00-05:00
+2024-05-05 20:51:34,427: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:34[0m
+2024-05-05 20:51:35,028: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:35,030: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:35,705: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:35,708: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:36,306: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:36,309: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:36,339: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:36,341: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:36,341: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:36[0m
+2024-05-05 20:51:36,343: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:36,345: root: INFO: Current backtesting datetime 2022-01-14 16:00:00-05:00
+2024-05-05 20:51:36,345: root: INFO: Current backtesting datetime 2022-01-15 09:30:00-05:00
+2024-05-05 20:51:36,346: asyncio: INFO: [MachineLearningTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-05 20:51:36,349: root: INFO: Current backtesting datetime 2022-01-15 09:15:00-05:00
+2024-05-05 20:51:36,350: root: INFO: Current backtesting datetime 2022-01-15 09:15:00-05:00
+2024-05-05 20:51:36,351: asyncio: INFO: [MachineLearningTrader] Executing the after_market_closes lifecycle method
+2024-05-05 20:51:36,353: root: INFO: Current backtesting datetime 2022-01-18 08:30:00-05:00
+2024-05-05 20:51:36,354: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-05 20:51:36,356: root: INFO: Current backtesting datetime 2022-01-18 09:30:00-05:00
+2024-05-05 20:51:36,356: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-05 20:51:36,359: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:36[0m
+2024-05-05 20:51:36,782: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:36,784: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,194: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,197: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,342: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,345: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,452: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,454: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,455: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:37[0m
+2024-05-05 20:51:37,457: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:37,459: root: INFO: Current backtesting datetime 2022-01-18 16:00:00-05:00
+2024-05-05 20:51:37,460: root: INFO: Current backtesting datetime 2022-01-19 09:30:00-05:00
+2024-05-05 20:51:37,461: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:37[0m
+2024-05-05 20:51:37,942: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:37,945: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:38,518: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:38,519: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:38,842: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:38,844: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:38,931: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:38,933: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:38,933: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:38[0m
+2024-05-05 20:51:38,935: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:38,936: root: INFO: Current backtesting datetime 2022-01-19 16:00:00-05:00
+2024-05-05 20:51:38,937: root: INFO: Current backtesting datetime 2022-01-20 09:30:00-05:00
+2024-05-05 20:51:38,937: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:38[0m
+2024-05-05 20:51:39,518: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:39,520: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:39,998: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:39,999: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:40,261: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:40,263: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:40,290: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:40,291: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:40,291: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 20:51:40[0m
+2024-05-05 20:51:40,292: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 20:51:40,293: root: INFO: Current backtesting datetime 2022-01-20 16:00:00-05:00
+2024-05-05 20:51:40,293: root: INFO: Current backtesting datetime 2022-01-21 09:30:00-05:00
+2024-05-05 20:51:40,295: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 20:51:40[0m
+2024-05-05 20:51:40,760: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:40,762: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:41,458: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:41,460: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 20:51:41,461: asyncio: ERROR: [MachineLearningTrader] 'str' object has no attribute 'get'
+2024-05-05 20:51:41,464: asyncio: ERROR: [MachineLearningTrader] Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 919, in run
+    self._run_trading_session()
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 867, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\New folder\tradingBot\tradingBot2.py", line 96, in on_trading_iteration
+    if self.last_trade.get(symbol) == "buy":
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+2024-05-05 20:51:41,465: asyncio: INFO: [MachineLearningTrader] Executing the on_bot_crash event method
+2024-05-05 20:51:42,299: root: INFO: Backtesting finished
+2024-05-05 20:51:42,609: root: INFO: There were no trades in this backtest.
+2024-05-05 20:51:42,827: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-05-05 20:51:42,827: backtest_stats: INFO: Backtest took 0:00:27.238464 for a speed of 0.000

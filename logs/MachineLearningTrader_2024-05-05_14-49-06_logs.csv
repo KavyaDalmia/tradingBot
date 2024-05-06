@@ -1,0 +1,235 @@
+2024-05-05 14:49:06,188: asyncio: INFO: [MachineLearningTrader] Executing the initialize lifecycle method
+2024-05-05 14:49:07,497: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-05-05 14:49:07,497: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-05 14:49:07,498: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-05-05 14:49:07,499: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-05 14:49:07,500: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:07[0m
+2024-05-05 14:49:09,054: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:10,363: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:10,555: asyncio: INFO: [MachineLearningTrader] [32mNew order was created: market order of | 105.0 SPY buy | at price $570.31201171875 of class bracket with status new[0m
+2024-05-05 14:49:10,560: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:10[0m
+2024-05-05 14:49:10,560: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:10,560: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:10,561: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:10,562: root: INFO: market order of | 105.0 SPY buy | at price $570.31201171875 of class bracket with status new was sent to broker backtesting
+2024-05-05 14:49:10,562: root: INFO: market order of | 105.0 SPY buy | at price $570.31201171875 of class bracket with status new was sent to broker backtesting
+2024-05-05 14:49:10,562: asyncio: INFO: [MachineLearningTrader] [32mOrder was filled: market order of | 105.0 SPY buy | at price $475.26 of class bracket with status fill[0m
+2024-05-05 14:49:10,567: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:10,571: root: INFO: Current backtesting datetime 2024-01-16 16:00:00-05:00
+2024-05-05 14:49:10,571: root: INFO: Current backtesting datetime 2024-01-17 09:30:00-05:00
+2024-05-05 14:49:10,574: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:10[0m
+2024-05-05 14:49:11,616: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:11,617: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:11,618: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:11[0m
+2024-05-05 14:49:11,618: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:11,618: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:11,619: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:11,619: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:11,619: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:11,620: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:11,621: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:11,622: root: INFO: Current backtesting datetime 2024-01-17 16:00:00-05:00
+2024-05-05 14:49:11,623: root: INFO: Current backtesting datetime 2024-01-18 09:30:00-05:00
+2024-05-05 14:49:11,625: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:11[0m
+2024-05-05 14:49:12,156: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,158: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,159: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:12[0m
+2024-05-05 14:49:12,159: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,159: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,160: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,161: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,161: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,162: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,164: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:12,165: root: INFO: Current backtesting datetime 2024-01-18 16:00:00-05:00
+2024-05-05 14:49:12,166: root: INFO: Current backtesting datetime 2024-01-19 09:30:00-05:00
+2024-05-05 14:49:12,168: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:12[0m
+2024-05-05 14:49:12,667: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,670: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,670: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:12[0m
+2024-05-05 14:49:12,671: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,671: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,672: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,672: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,672: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,675: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:12,677: root: INFO: Current backtesting datetime 2024-01-19 16:00:00-05:00
+2024-05-05 14:49:12,678: root: INFO: Current backtesting datetime 2024-01-20 09:30:00-05:00
+2024-05-05 14:49:12,680: asyncio: INFO: [MachineLearningTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-05 14:49:12,680: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,680: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,681: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,681: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,681: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,682: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,684: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,684: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,685: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,685: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,686: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,687: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,688: root: INFO: Current backtesting datetime 2024-01-20 09:15:00-05:00
+2024-05-05 14:49:12,689: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,689: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,690: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,691: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,691: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,692: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,694: root: INFO: Current backtesting datetime 2024-01-20 09:15:00-05:00
+2024-05-05 14:49:12,694: asyncio: INFO: [MachineLearningTrader] Executing the after_market_closes lifecycle method
+2024-05-05 14:49:12,694: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,694: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,696: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,697: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,697: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,698: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,700: root: INFO: Current backtesting datetime 2024-01-22 08:30:00-05:00
+2024-05-05 14:49:12,701: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,702: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,704: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-05 14:49:12,704: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,704: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,705: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,706: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:12,706: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,707: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:12,709: root: INFO: Current backtesting datetime 2024-01-22 09:30:00-05:00
+2024-05-05 14:49:12,709: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-05 14:49:12,713: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:12[0m
+2024-05-05 14:49:13,175: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,177: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,178: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:13[0m
+2024-05-05 14:49:13,178: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:13,178: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,179: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,180: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:13,180: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,181: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,183: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:13,185: root: INFO: Current backtesting datetime 2024-01-22 16:00:00-05:00
+2024-05-05 14:49:13,185: root: INFO: Current backtesting datetime 2024-01-23 09:30:00-05:00
+2024-05-05 14:49:13,188: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:13[0m
+2024-05-05 14:49:13,607: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,610: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,610: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:13[0m
+2024-05-05 14:49:13,610: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:13,611: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,612: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,612: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:13,612: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,614: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:13,616: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:13,618: root: INFO: Current backtesting datetime 2024-01-23 16:00:00-05:00
+2024-05-05 14:49:13,618: root: INFO: Current backtesting datetime 2024-01-24 09:30:00-05:00
+2024-05-05 14:49:13,620: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:13[0m
+2024-05-05 14:49:14,082: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,084: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,085: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:14[0m
+2024-05-05 14:49:14,085: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:14,085: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,086: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,087: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:14,087: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,088: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,090: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:14,092: root: INFO: Current backtesting datetime 2024-01-24 16:00:00-05:00
+2024-05-05 14:49:14,092: root: INFO: Current backtesting datetime 2024-01-25 09:30:00-05:00
+2024-05-05 14:49:14,094: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:14[0m
+2024-05-05 14:49:14,691: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,694: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,695: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:14[0m
+2024-05-05 14:49:14,695: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:14,695: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,696: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,697: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:14,697: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,702: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:14,704: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:14,705: root: INFO: Current backtesting datetime 2024-01-25 16:00:00-05:00
+2024-05-05 14:49:14,706: root: INFO: Current backtesting datetime 2024-01-26 09:30:00-05:00
+2024-05-05 14:49:14,709: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:14[0m
+2024-05-05 14:49:15,374: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,375: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,376: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:15[0m
+2024-05-05 14:49:15,376: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,376: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,377: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,378: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,378: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,379: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,381: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:15,383: root: INFO: Current backtesting datetime 2024-01-26 16:00:00-05:00
+2024-05-05 14:49:15,383: root: INFO: Current backtesting datetime 2024-01-27 09:30:00-05:00
+2024-05-05 14:49:15,385: asyncio: INFO: [MachineLearningTrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-05 14:49:15,385: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,385: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,387: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,387: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,387: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,388: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,390: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,390: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,390: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,391: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,391: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,392: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,394: root: INFO: Current backtesting datetime 2024-01-27 09:15:00-05:00
+2024-05-05 14:49:15,395: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,395: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,396: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,397: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,397: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,398: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,400: root: INFO: Current backtesting datetime 2024-01-27 09:15:00-05:00
+2024-05-05 14:49:15,400: asyncio: INFO: [MachineLearningTrader] Executing the after_market_closes lifecycle method
+2024-05-05 14:49:15,400: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,400: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,401: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,402: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,402: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,403: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,404: root: INFO: Current backtesting datetime 2024-01-29 08:30:00-05:00
+2024-05-05 14:49:15,405: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,406: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,407: asyncio: INFO: [MachineLearningTrader] Executing the before_market_opens lifecycle method
+2024-05-05 14:49:15,407: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,407: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,408: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,408: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:15,408: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,409: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:15,411: root: INFO: Current backtesting datetime 2024-01-29 09:30:00-05:00
+2024-05-05 14:49:15,411: asyncio: INFO: [MachineLearningTrader] Executing the before_starting_trading lifecycle method
+2024-05-05 14:49:15,415: asyncio: INFO: [MachineLearningTrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-05 14:49:15[0m
+2024-05-05 14:49:16,089: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,091: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,091: asyncio: INFO: [MachineLearningTrader] [34mTrading iteration ended at 2024-05-05 14:49:16[0m
+2024-05-05 14:49:16,091: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:16,091: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,092: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,092: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:16,092: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,093: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,095: asyncio: INFO: [MachineLearningTrader] [34mSleeping for 86400 seconds[0m
+2024-05-05 14:49:16,096: root: INFO: Current backtesting datetime 2024-01-29 16:00:00-05:00
+2024-05-05 14:49:16,097: root: INFO: Current backtesting datetime 2024-01-30 09:30:00-05:00
+2024-05-05 14:49:16,097: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:16,097: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,097: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,098: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:16,098: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,098: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,100: root: INFO: Current backtesting datetime 2024-01-30 15:45:00-05:00
+2024-05-05 14:49:16,100: asyncio: INFO: [MachineLearningTrader] Executing the before_market_closes lifecycle method
+2024-05-05 14:49:16,100: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:16,100: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,101: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,101: asyncio: INFO: [MachineLearningTrader] Getting historical prices for SPY, 1 bars, 
+2024-05-05 14:49:16,101: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,102: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-05 14:49:16,103: root: INFO: Current backtesting datetime 2024-01-30 16:00:00-05:00
+2024-05-05 14:49:16,103: asyncio: INFO: [MachineLearningTrader] Executing the after_market_closes lifecycle method
+2024-05-05 14:49:16,103: asyncio: INFO: [MachineLearningTrader] Executing the on_strategy_end lifecycle method
+2024-05-05 14:49:16,883: root: INFO: Backtesting finished
+2024-05-05 14:49:22,387: backtest_stats: INFO: Backtest took 0:00:16.201816 for a speed of 0.000
