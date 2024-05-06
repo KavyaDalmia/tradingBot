@@ -16,6 +16,11 @@ To evaluate the effectiveness of the trading strategy, YahooDataBacktesting is u
 - FinBERT Model: Utilizes transformers and Python to perform sentiment analysis on news articles.
 - YahooDataBacktesting: Enables backtesting of trading strategies using historical data from Yahoo Finance.
 
+<img src="trading strategy stats.png" alt="Alt Text" width="600">
+<img src="trading strategy map.png" alt="Alt Text" width="600">
+<img src="strategy stats.png" alt="Alt Text" width="600">
+
+
 You can test the above by running `python tradingBot.py`.
 
 ## Part 2
@@ -24,3 +29,6 @@ To further make the project more realistic, I implemented a model to fetch real-
 To implement this, a node server was utilized, making websockets to communicate with the Alpaca live news API and a websocket to communicate with the Python server. Every time new news was received, it was sent to the Python server to calculate the sentiment and get it back on the Node server to implement the trading strategy logic.
 
 Test the live news API and sentiment trading strategy by running `python receive.py` and then `node server.js`.
+
+<img src="positive example.png" alt="Alt Text" width="600">
+<img src="neutral example.png" alt="Alt Text" width="600">
