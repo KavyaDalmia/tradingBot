@@ -17,8 +17,8 @@ from datetime import timedelta
 
 #classifier = pipeline('sentiment-analysis')
 
-API_KEY = "PKKE8Q20HG91SIPFPQZA"
-API_SECRET = "W1iXIc6aWZLmBKDuS7hUHlR9eay8bdKcT1rhJvmj"
+API_KEY = "PK28MFMJVX0XVJMY6SS8"
+API_SECRET = "kFAH2z0HhSPVBSw3dOGkfoSiRbhcWLM7DVKReoca"
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 
 # link to get the api key: https://app.alpaca.markets/paper/dashboard/overview
