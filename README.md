@@ -1,5 +1,5 @@
 Live demo: https://youtu.be/8doMJ0AG5c8?si=JPJqwq0sGP2lXV6c
-# Lumibot-Alpaca News Trading App
+# Machine Learning powered News Trading Bot
 
 ## Overview
 This application utilizes the Lumibot framework for algorithmic trading and integrates the Alpaca news API to make trades based on sentiment analysis of news data. The sentiment analysis is performed using the FinBERT model, which utilizes transformers and Python to predict the sentiment of news articles. The sentiment can be categorized as "positive", "negative", or "neutral", along with the probability of the sentiment being accurate.
